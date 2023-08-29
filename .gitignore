@@ -1,0 +1,10 @@
+# Ignore temporary and backup files
+*~
+*.swp
+*.swo
+
+# Ignore user-specific files
+args_file
+
+# Ignore virtual environment directories
+venv/
