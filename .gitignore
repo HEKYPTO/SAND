@@ -2,6 +2,7 @@
 *~
 *.swp
 *.swo
+*.gitattributes
 
 # Ignore user-specific files
 args_file
