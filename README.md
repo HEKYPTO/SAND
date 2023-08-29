@@ -2,6 +2,9 @@
 
 SAND.zsh is a simple Zsh script that simulates particles falling and stacking like sand in a terminal.
 
+
+Get ready to experience some **magic** with SAND.zsh! ✨
+
 <details>
 <summary>📖 Table of Contents</summary>
 
@@ -9,7 +12,7 @@ SAND.zsh is a simple Zsh script that simulates particles falling and stacking li
   - [🛠️ Installation](#️-installation)
   - [🐳 Docker](#-docker)
   - [🚀 Usage](#-usage)
-  - [🔄 Shorter Execution](#-shorter-execution)
+  - [🔄 Shorter Command](#-shorter-command)
   - [📂 Project Structure](#-project-structure)
   - [📜 License](#-license)
 
@@ -59,9 +62,24 @@ SAND.zsh is a simple Zsh script that simulates particles falling and stacking li
     ./sand.zsh [args]
     ```
 
-    Available args: `-s`, `-i [symbol]`, `-t [time]`, `-b`, `-a`, `-r [value]`
+    You can customize the behavior of SAND.zsh using various command-line arguments:
 
-## 🔄 Shorter Execution
+    - `-s`: Use '\*' instead of '@' as the particle symbol.
+    - `-i [symbol]`: Set a custom particle symbol. For example: `-i ♥️`.
+    - `-t [time]`: Set the sleep time between frames (default is 0.8 seconds). For example: `-t 0.5`.
+    - `-b`: Enable bottom row removal when filled with particles.
+    - `-a`: Automatically exit when the entire screen is filled with particles.
+    - `-r [value]`: Set the randomness value for particle generation (default is 10). For example: `-r 5`.
+
+    Example usage with arguments:
+
+    ```bash
+    ./sand.zsh -s -t 0.5 -a
+    ```
+
+    Experiment and create your own unique sandfall scenarios using these options!
+
+## 🔄 Shorter Command
 
 1. **Rename the script**:
 
@@ -91,3 +109,5 @@ SAND.zsh is a simple Zsh script that simulates particles falling and stacking li
 ## 📜 License
 
 This project is licensed under the [MIT License](LICENSE).
+
+Ready to drop some virtual sand and groove? Let's go, party in your terminal! 🎉🔥
