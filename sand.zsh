@@ -21,7 +21,7 @@ rnd=10
 
 # Process command line arguments
 a=("$@")
-p="@"
+p="█"
 rb=false
 xa=false
 xr=false
