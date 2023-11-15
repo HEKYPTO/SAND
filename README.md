@@ -23,7 +23,7 @@ Get ready to experience some **magic** with SAND.zsh! ✨
 1. **Clone the repository**:
 
     ```bash
-    git clone https://github.com/your-username/sand-zsh.git
+    git clone https://github.com/HEKYPTO/sand-zsh.git
     cd sand-zsh
     ```
 
